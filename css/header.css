@@ -1,0 +1,46 @@
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 15px 0;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.header-box__menu {
+  width: 30px;
+  margin-left: 15px;
+}
+
+.header-box__setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-box__setting-question img {
+  width: 32px;
+  padding-right: 10px;
+}
+
+.header-box__setting-chart img {
+  width: 25px;
+  padding-right: 10px;
+}
+
+.header-box__setting-cog img {
+  width: 32px;
+  padding-right: 20px;
+}
+
+.header-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-box__title {
+  font-size: 40px;
+  font-weight: bolder;
+  position: absolute;
+  top: 60px;
+}
